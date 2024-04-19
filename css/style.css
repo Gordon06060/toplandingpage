@@ -106,17 +106,54 @@
 
 .text{
     text-align: center;
-    width:40%;
+    width:50%;
 }
 
 .info{
     display:flex;
 }
 
+.img.first{
+    padding-left: 200px;
+}
+
+.img.fourth{
+    padding-right: 200px;
+}
 
 
+.quotecontainer{
+    height:200px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 
+}
 
+.quotecontainer .quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+    width: 50%;
+}
+
+.personcontainer{
+    height: 90px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.personcontainer .person{
+    margin-top: 20px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 20px;
+    width: 40%;
+}
 
 
 
