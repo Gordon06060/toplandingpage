@@ -74,7 +74,7 @@
 .header2{
     display: flex;
     font-size: 36px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     font-weight: 900;
     color: black;
@@ -90,6 +90,7 @@
 
 .infotext{
     height: 250px;
+    width: 100vw;
     display:flex;
 }
 
@@ -128,6 +129,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: 100vw;
 
 }
 
@@ -144,6 +146,8 @@
     background-color: #E5E7EB;
     display: flex;
     justify-content: flex-end;
+    width: 100vw;
+
 
 }
 
@@ -155,10 +159,61 @@
     width: 40%;
 }
 
+.call{
+    background-color: white;
+
+}
+
+.call div{
+    background-color: #3882F6;
+}
+
+.call button{
+    background-color: #3882F6;
+}
+
+.call{
+    width: 100vw;
+    box-sizing:border-box;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 700px;
+    height: 100px;
+    border-radius: 15px;
+}
 
+.message div{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
 
+.message .smaller-text{
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.buttoncontainer button{
+    color: white;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    border-color: white;
+
+}
 
 
